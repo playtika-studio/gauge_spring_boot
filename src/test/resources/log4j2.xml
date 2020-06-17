@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+        <Console name="ConsoleLogging" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="%highlight{[%d{MM/dd/yyyy HH:mm:ss:SSS z}] %-5level %c{1}: %m}{FATAL=Green, ERROR=Magenta, WARN=Red, INFO=blue, DEBUG=Cyan, TRACE=Yellow}%n"/>
+            <Filters>
+                <ThresholdFilter level="DEBUG" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="com.playtika" level="DEBUG" additivity="false">
+            <AppenderRef ref="ConsoleLogging"/>
+        </Logger>
+        <Root level="info">
+            <AppenderRef ref="ConsoleLogging"/>
+        </Root>
+    </Loggers>
+</Configuration>
