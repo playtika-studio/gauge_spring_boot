@@ -22,7 +22,6 @@ public class BonusSteps {
 
     @Step("Retrieve all bonuses")
     public void getAllBonuses(){
-
         Awaitility.await().atMost(Duration.TEN_SECONDS).pollInterval(Duration.TWO_SECONDS).untilAsserted(()->{
             bonusTestClient.getAllBonuses();
             assert true;
@@ -31,11 +30,10 @@ public class BonusSteps {
 
     @Step("Retrieve bonus id <id>")
     public void getAllBonuses(Integer id){
-
         Awaitility.await().atMost(Duration.TEN_SECONDS).pollInterval(Duration.TWO_SECONDS).untilAsserted(()->{
            Bonus bonus = bonusTestClient.getBonusById(id);
            log.info("Bonus contains id "+bonus.getId());
-            Assert.assertEquals(id,"3");
+           assert bonus.getId() == 1;
         });
     }
 
