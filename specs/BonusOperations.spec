@@ -8,3 +8,8 @@ CRUD operations on bonus service
 * Create new "SUPER_BONUS" bonus
 * Retrieve all bonuses
 * Retrieve bonus id "1"
+
+GET operations on bonus service
+-------------------------------
+* Retrieve all bonuses
+* Retrieve bonus id "1"
