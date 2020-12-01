@@ -1,8 +1,8 @@
-package com.playtika.bonus.configuration;
+package com.automation.bonus.configuration;
 
-import com.playtika.bonus.client.BonusClient;
-import com.playtika.bonus.client.BonusTestClient;
-import com.playtika.bonus.steps.BonusSteps;
+import com.automation.bonus.client.BonusClient;
+import com.automation.bonus.client.BonusTestClient;
+import com.automation.bonus.steps.BonusSteps;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

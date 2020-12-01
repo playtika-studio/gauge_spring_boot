@@ -1,4 +1,4 @@
-package com.playtika.bonus.data;
+package com.automation.bonus.data;
 
 import lombok.Getter;
 

@@ -1,8 +1,8 @@
-package com.playtika.bonus.client;
+package com.automation.bonus.client;
 
 
-import com.playtika.bonus.data.Bonus;
-import com.playtika.bonus.data.BonusRequest;
+import com.automation.bonus.data.Bonus;
+import com.automation.bonus.data.BonusRequest;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,15 +1,14 @@
-package com.playtika.bonus.steps;
+package com.automation.bonus.steps;
 
-import com.playtika.bonus.client.BonusTestClient;
-import com.playtika.bonus.data.Bonus;
-import com.playtika.bonus.data.BonusRequest;
-import com.playtika.bonus.data.BonusTypes;
+import com.automation.bonus.client.BonusTestClient;
+import com.automation.bonus.data.Bonus;
+import com.automation.bonus.data.BonusRequest;
+import com.automation.bonus.data.BonusTypes;
 import com.thoughtworks.gauge.Step;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.awaitility.Awaitility;
 import org.awaitility.Duration;
-import org.junit.Assert;
 
 import java.sql.Date;
 import java.time.LocalDate;

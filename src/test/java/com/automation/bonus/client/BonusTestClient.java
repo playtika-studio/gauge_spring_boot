@@ -1,7 +1,7 @@
-package com.playtika.bonus.client;
+package com.automation.bonus.client;
 
-import com.playtika.bonus.data.Bonus;
-import com.playtika.bonus.data.BonusRequest;
+import com.automation.bonus.data.Bonus;
+import com.automation.bonus.data.BonusRequest;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
