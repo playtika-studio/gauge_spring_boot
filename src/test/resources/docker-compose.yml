@@ -10,7 +10,7 @@ services:
     hostname: eurekaserver
   bonus:
 #    build: ~/SERVICE_LOCATION/bonus-service
-    image: bonus-service:v1
+    image: razvan1987/playtikaworkshop:bonus
     mem_limit: 350m
     ports:
       - 8080:8080
